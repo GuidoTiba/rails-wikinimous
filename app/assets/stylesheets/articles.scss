@@ -1,0 +1,62 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 15px 20px;
+  height: 20px;
+  background-color: rgba($color: #cfcfcf, $alpha: 0.3);
+  border-bottom: 1px solid rgba($color: #4d4d4d, $alpha: 0.2);
+}
+.navbar a {
+  color: rgba($color: #000000, $alpha: 0.7);
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: rgba($color: #000000, $alpha: 0.9);
+}
+
+.article-card {
+  width: 700px;
+  margin: 20px auto;
+  height: 70px;
+}
+
+.article-card h2 {
+  font-size: 25px;
+  margin: 0;
+}
+
+.article-card p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 17px;
+  color: #4d4d4d;
+}
+
+.article-card a {
+  text-decoration: none;
+  color: rgba($color: #4c9efb, $alpha: 0.8);
+}
+.article-card a:hover {
+  border-bottom: 2px solid rgba($color: #4c9efb, $alpha: 0.8);
+}
+
+a {
+  text-decoration: none;
+  color: rgba($color: #4797ff, $alpha: 1.0);
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.article-show {
+  width: 700px;
+  margin: 20px auto;
+}
